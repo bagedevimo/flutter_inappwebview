@@ -81,7 +81,7 @@ window.\(JAVASCRIPT_BRIDGE_NAME)._isOriginAllowed = function(allowedOriginRules,
             continue;
         }
         var rulePort = rule.port == null || rule.port === 0 ? (rule.scheme == "https" ? 443 : 80) : rule.port;
-        var currentPort = port === 0 || port === "" || port == null ? (scheme == "https" ? 443 : 80) : port;
+        var currentPort = port === 0 || port === "" || port == null ? (scheme == "https" ? 443 : 80) : parseInt(port);
         var IPv6 = null;
         if (rule.host != null && rule.host[0] === "[") {
             try {
