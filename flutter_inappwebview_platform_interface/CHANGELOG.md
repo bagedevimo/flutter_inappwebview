@@ -53,7 +53,7 @@
 
 ## 1.0.5
 
-- Must call super `dispose` method for `PlatformInAppBrowser` and `PlatformChromeSafariBrowser` 
+- Must call super `dispose` method for `PlatformInAppBrowser` and `PlatformChromeSafariBrowser`
 
 ## 1.0.4
 
@@ -69,7 +69,7 @@
 
 ## 1.0.1
 
-- Updated README 
+- Updated README
 
 ## 1.0.0
 
